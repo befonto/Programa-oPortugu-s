@@ -10,18 +10,18 @@ Algoritmo "Questao5"
 // (...)
 // 2 . 10 = 20
 Var
-num: inteiro
-contador: inteiro
-
-
+num, a, b: inteiro
 
 Inicio
 escreval ("Insira um número: ")
 leia(num)
-contador <- 1
-enquanto ( contador <= 10 ) faca
-         escreval (num "x" contador " = " <- num *contador )
-         contador <- contador + 1
+
+a <- 1
+
+enquanto ( a <= 10 ) faca
+         b <- num * a
+         escreval ("O número", num, " x ", a, " = ", b)
+         a <- a + 1
 fimenquanto
 
 

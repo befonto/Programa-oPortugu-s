@@ -1,14 +1,13 @@
 Algoritmo "Questao3"
 // Desenvolver um programa que apresente os quadrados dos números inteiros de 15 a 200.
 Var
-contador: inteiro
+cont: inteiro
 
 Inicio
-escreval ("Exibindo os quadrados dos números inteiros de 15 a 200: ")
-contador <- 15
-enquanto ( contador <= 200 ) faca
-         escreval (contador * contador)
-         contador <- contador + 1
+cont <- 15
+enquanto ( cont <= 200 ) faca
+         escreval (cont, " elevado ao quadrado = ", (cont^2))
+         cont <- cont + 1
 fimenquanto
 
 
