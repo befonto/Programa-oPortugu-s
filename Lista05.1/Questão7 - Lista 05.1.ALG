@@ -4,16 +4,16 @@ Algoritmo "Questao7"
 // divisível, mostre-o; não sendo, passe para o próximo passo. A variável que controla o contador deve ser iniciada
 // com valor 1
 Var
-a, b: inteiro
+cont, resto: inteiro
 
 Inicio
-a <- 1
-enquanto (a < 200) faca
-         b <- a mod 4
-         se (b = 0) entao
-            escreval(a, "é divisível por 4")
-         a <- a + 1
-         fimse
+cont <- 1
+enquanto (cont < 200) faca
+         resto <- cont mod 4
+           se (resto = 0) entao
+            escreval(cont, " é divisível por 4!")
+           fimse
+          cont <- cont + 1
 fimenquanto
 
 Fimalgoritmo
