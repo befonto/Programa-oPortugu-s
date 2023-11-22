@@ -4,18 +4,17 @@ Algoritmo "Questao13"
 // usuário.
 
 Var
-pol, num, cont: inteiro
-
+num, cont: inteiro
+pol: real
 
 Inicio
 
-escreval ("Insira o valor da polegada para saber em centímetros:  ")
+escreval ("Insira o valor de polegadas que deseja saber em centímetros:  ")
 leia ( num )
 
-para cont de 1 ate num faca
-     pol <- cont / 2.54
-    escreval (cont, "equivale a", pol, "em polegadas")
-    cont <- cont + 1
+para cont de 1 ate num passo 1 faca
+     pol <-  cont * 2.54
+    escreval (cont, " polegada equivale a", pol, " em centímetros")
 fimpara
 
 
