@@ -16,10 +16,7 @@ Inicio
          se( num > 0 ) entao
             escreval ( num, " é um número positivo!" )
          senao
-            se( num < 0 ) entao
                escreval ( num, " é um número negativo!" )
-            senao
-            fimse
          fimse
       fimse
    fimescolha
