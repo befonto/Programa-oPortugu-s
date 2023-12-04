@@ -17,7 +17,7 @@ sg <- sp / sm
 se ( sp >= sm ) entao
    escreval ("Você tem cerca de", sg ," salário/s mínimos!")
 senao
-   escreval ( "Você não chega a ter se quer um salário mínimo! POBRE!!!" )
+   escreval ( "Você não chega a ter nem um salário mínimo!" )
 fimse
 
 

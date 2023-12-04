@@ -20,5 +20,6 @@ caso "MG"
      escreval ("Mineiro")
 outrocaso
      escreval ("Outros estados")
+fimescolha
 
 Fimalgoritmo
